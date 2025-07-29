@@ -1,6 +1,6 @@
 # challenge1-data-science-latam
 ## Análisis de Venta de Productos para Tiendas
-
+---
 ### Propósito del Proyecto
 Este proyecto tiene como objetivo analizar y recomendar la mejor tienda para que el Sr. Juan venda sus productos, basándose en cinco factores clave:
 - Ingresos totales por tienda
@@ -11,7 +11,7 @@ Este proyecto tiene como objetivo analizar y recomendar la mejor tienda para que
 ---
 ### Estructura del Proyecto
 
-- base-de-datos-challenget-latam/
+- base-de-datos-challenge1-latam/
   - `tienda_1.csv`
   - `tienda_2.csv`
   - `tienda_3.csv`
@@ -20,7 +20,7 @@ Este proyecto tiene como objetivo analizar y recomendar la mejor tienda para que
 - `AluraStoreLatam.ipynb`
 - `InformeFinal.ipynb`
 
-- base-de-datos-challenget-latam/ : Contiene los archivos CSV con datos por tienda
+- base-de-datos-challenge1-latam/ : Contiene los archivos CSV con datos por tienda
 - `AluraStoreLatam.ipynb` : Notebook de análisis y visualización
 - `InformeFinal.ipynb` : Contiene el informe final 
 ---
