@@ -14,56 +14,40 @@ El análisis proporciona insights estratégicos para tomar una decisión informa
 ### Estructura del Proyecto
 
 - base-de-datos-challenget-latam/
-  - tienda_1.csv
-  - tienda_2.csv
-  - tienda_3.csv
-  - tienda_4.csv
+  - `tienda_1.csv`
+  - `tienda_2.csv`
+  - `tienda_3.csv`
+  - `tienda_4.csv`
 
-- Alurastorelatam.ipynb
-- InformeFinal.ipynb
+- `AluraStoreLatam.ipynb`
+- `InformeFinal.ipynb`
 
 - base-de-datos-challenget-latam/ : Contiene los archivos CSV con datos por tienda
-- Alurastorelatam.ipynb : Notebook de análisis y visualización
-- InformeFinal.ipynb : Contiene el informe final 
+- `AluraStoreLatam.ipynb` : Notebook de análisis y visualización
+- `InformeFinal.ipynb` : Contiene el informe final 
 ---
+
+### Principales insights y hallazgos clave
+
+#### 1. Ingresos por Tienda
+- Tienda 2 muestra los mayores ingresos totales
+- Tienda 1 y 3 tienen volúmenes similares pero menores
+
+#### 2. Satisfacción del Cliente
+- Tienda 3 lidera con 4.048 puntos
+- Tienda 2 sigue de cerca con 4.037
+- Diferencias significativas con Tiendas 1 y 4
+
+#### 3. Productos Destacados
+- Tienda 4 tiene el producto individual más vendido (Cama box - 60 unidades)
+- Tienda 3 muestra mejor distribución entre productos populares y nicho
 
 ### Cómo ejecutar el proyecto en Google Colab
 
 1. Abre Google Colab desde tu navegador.
 
 2. Sube los siguientes archivos al entorno de Colab:
-   - Alurastorelatam.ipynb
-   - InformeFinal.ipynb : Contiene el informe final
+   - `Alurastorelatam.ipynb`
+   - `InformeFinal.ipynb` 
      
 3. Ejecuta las celdas del notebook una por una para reproducir el análisis y visualizar los gráficos.
-
-### Insights y Hallazgos Clave
-
-#### 1. Ingresos por Tienda
-![Ingresos por Tienda](img/ingresos_tiendas.png)
-- Tienda 2 muestra los mayores ingresos totales
-- Tienda 1 y 3 tienen volúmenes similares pero menores
-
-#### 2. Satisfacción del Cliente
-![Calificaciones](img/calificaciones.png)
-- Tienda 3 lidera con 4.048 puntos
-- Tienda 2 sigue de cerca con 4.037
-- Diferencias significativas con Tiendas 1 y 4
-
-#### 3. Productos Destacados
-![Productos Vendidos](img/productos_vendidos.png)
-- Tienda 4 tiene el producto individual más vendido (Cama box - 60 unidades)
-- Tienda 3 muestra mejor distribución entre productos populares y nicho
-
-### Instrucciones de Ejecución
-
-#### Requisitos Previos
-- Python 3.8+
-- Jupyter Notebook
-- Bibliotecas: pandas, matplotlib
-
-#### Pasos para Ejecutar el Análisis
-1. Clonar el repositorio:
-   ```bash
-   git clone https://github.com/tu-usuario/proyecto-venta-tiendas.git
-   cd proyecto-venta-tiendas
