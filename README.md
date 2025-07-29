@@ -10,7 +10,7 @@ Este proyecto tiene como objetivo analizar y recomendar la mejor tienda para que
 - Coste de envío promedio
 
 El análisis proporciona insights estratégicos para tomar una decisión informada sobre dónde comercializar los productos.
-
+---
 ### Estructura del Proyecto
 
 - base-de-datos-challenget-latam/
@@ -26,7 +26,6 @@ El análisis proporciona insights estratégicos para tomar una decisión informa
 - `AluraStoreLatam.ipynb` : Notebook de análisis y visualización
 - `InformeFinal.ipynb` : Contiene el informe final 
 ---
-
 ### Principales insights y hallazgos clave
 
 #### 1. Ingresos por Tienda
@@ -41,7 +40,7 @@ El análisis proporciona insights estratégicos para tomar una decisión informa
 #### 3. Productos Destacados
 - Tienda 4 tiene el producto individual más vendido (Cama box - 60 unidades)
 - Tienda 3 muestra mejor distribución entre productos populares y nicho
-
+---
 ### Cómo ejecutar el proyecto en Google Colab
 
 1. Abre Google Colab desde tu navegador.
