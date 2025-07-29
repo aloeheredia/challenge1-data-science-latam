@@ -1,6 +1,5 @@
 # challenge1-data-science-latam
 ## Análisis de Venta de Productos para Tiendas
----
 ### Propósito del Proyecto
 Este proyecto tiene como objetivo analizar y recomendar la mejor tienda para que el Sr. Juan venda sus productos, basándose en cinco factores clave:
 - Ingresos totales por tienda
