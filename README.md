@@ -8,8 +8,6 @@ Este proyecto tiene como objetivo analizar y recomendar la mejor tienda para que
 - Calificaciones promedio de clientes
 - Productos más y menos vendidos
 - Coste de envío promedio
-
-El análisis proporciona insights estratégicos para tomar una decisión informada sobre dónde comercializar los productos.
 ---
 ### Estructura del Proyecto
 
