@@ -12,37 +12,57 @@ Este proyecto tiene como objetivo analizar y recomendar la mejor tienda para que
 El análisis proporciona insights estratégicos para tomar una decisión informada sobre dónde comercializar los productos.
 
 ### Estructura del Proyecto
-challenge1-data-science-latam/
-│
-├── AluraStoreLatam.ipynb # Notebook de análisis en Colab
-├── InformeFinal.ipynb # Notebook del reporte ejecutivo
 
-## Insights y Hallazgos Clave
+- base-de-datos-challenget-latam/
+  - tienda_1.csv
+  - tienda_2.csv
+  - tienda_3.csv
+  - tienda_4.csv
 
-### 1. Ingresos por Tienda
+- Alurastorelatam.ipynb
+- InformeFinal.ipynb
+
+- base-de-datos-challenget-latam/ : Contiene los archivos CSV con datos por tienda
+- Alurastorelatam.ipynb : Notebook de análisis y visualización
+- InformeFinal.ipynb : Contiene el informe final 
+---
+
+### Cómo ejecutar el proyecto en Google Colab
+
+1. Abre Google Colab desde tu navegador.
+
+2. Sube los siguientes archivos al entorno de Colab:
+   - Alurastorelatam.ipynb
+   - InformeFinal.ipynb : Contiene el informe final
+     
+3. Ejecuta las celdas del notebook una por una para reproducir el análisis y visualizar los gráficos.
+
+### Insights y Hallazgos Clave
+
+#### 1. Ingresos por Tienda
 ![Ingresos por Tienda](img/ingresos_tiendas.png)
 - Tienda 2 muestra los mayores ingresos totales
 - Tienda 1 y 3 tienen volúmenes similares pero menores
 
-### 2. Satisfacción del Cliente
+#### 2. Satisfacción del Cliente
 ![Calificaciones](img/calificaciones.png)
 - Tienda 3 lidera con 4.048 puntos
 - Tienda 2 sigue de cerca con 4.037
 - Diferencias significativas con Tiendas 1 y 4
 
-### 3. Productos Destacados
+#### 3. Productos Destacados
 ![Productos Vendidos](img/productos_vendidos.png)
 - Tienda 4 tiene el producto individual más vendido (Cama box - 60 unidades)
 - Tienda 3 muestra mejor distribución entre productos populares y nicho
 
-## Instrucciones de Ejecución
+### Instrucciones de Ejecución
 
-### Requisitos Previos
+#### Requisitos Previos
 - Python 3.8+
 - Jupyter Notebook
 - Bibliotecas: pandas, matplotlib
 
-### Pasos para Ejecutar el Análisis
+#### Pasos para Ejecutar el Análisis
 1. Clonar el repositorio:
    ```bash
    git clone https://github.com/tu-usuario/proyecto-venta-tiendas.git
